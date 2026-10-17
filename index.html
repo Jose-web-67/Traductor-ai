@@ -1,0 +1,46 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>traductor.ai</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#17104B">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>traductor<span>.ai</span></h1>
+        <p>Entiende el mundo. Aprende sin límites.</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>¿Qué necesitas traducir?</h2>
+            <p>Sube una foto de tu tarea o escribe el texto.</p>
+
+            <label for="foto">📸 Sube una foto</label>
+            <input type="file" id="foto" accept="image/*">
+
+            <img id="vista-previa" alt="Vista previa de tu imagen">
+
+            <textarea id="texto" placeholder="Escribe o pega tu texto aquí..."></textarea>
+
+            <button id="traducir">Traducir y responder</button>
+
+            <div id="estado"></div>
+
+            <h3>Resultado</h3>
+            <div id="resultado">Tu traducción aparecerá aquí.</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 traductor.ai · Tu aprendizaje, en otro idioma.</p>
+    </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

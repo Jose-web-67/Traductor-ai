@@ -1,0 +1,13 @@
+
+{
+  "id": "./",
+  "name": "traductor.ai",
+  "short_name": "traductor.ai",
+  "description": "Toma una foto, entiende el mundo.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080F2B",
+  "theme_color": "#17104B",
+  "icons": []
+}
